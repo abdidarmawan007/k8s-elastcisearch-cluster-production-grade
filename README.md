@@ -2,3 +2,6 @@
 
 #### This config for Profesional Production Cluster ES (can scale data node on-demand) ####
 #### Alredy tested can write 300.000 per seconds ####
+
+
+![alt text](https://i.imgur.com/uCTJets.png)
