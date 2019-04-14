@@ -1,0 +1,15 @@
+## NOTE for autoscaling pod client ingest node ##
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: es-client
+  namespace: elasticsearch
+spec:
+  maxReplicas: 6
+  minReplicas: 2
+  scaleTargetRef:
+    apiVersion: extensions/v1
+    kind: Deployment
+    name: es-client
+  # NOTE autoscale client node trigger with 60% CPU load
+  targetCPUUtilizationPercentage: 60
