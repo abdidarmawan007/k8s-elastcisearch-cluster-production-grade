@@ -25,6 +25,7 @@ spec:
         resources:
           limits:
             cpu: 1
+            memory: 1024Mi
         ports:
         - containerPort: 5601
           name: http
