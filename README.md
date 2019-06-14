@@ -5,3 +5,6 @@
 #### can handle 300.000+ write per seconds ####
 
 ![alt text](https://i.imgur.com/uCTJets.png)
+
+- Topology
+![alt text](https://i.ibb.co/DpGzy9S/elasticsearch-k8s-topology.jpg)
