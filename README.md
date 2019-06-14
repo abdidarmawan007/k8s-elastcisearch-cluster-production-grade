@@ -2,9 +2,9 @@
 
 #### This config for ready production cluster elasticsearch (can scale data node on-demand) ####
 #### Pods Client Ingest autoscale by CPU load ####
-#### can handle 300.000+ write per seconds ####
 
+- Benchmark test can handle 300.000+ write per seconds
 ![alt text](https://i.imgur.com/uCTJets.png)
 
-- Topology
+- Topology ES Cluster in GKE/K8S
 ![alt text](https://i.ibb.co/DpGzy9S/elasticsearch-k8s-topology.jpg)
